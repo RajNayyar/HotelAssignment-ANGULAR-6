@@ -22,4 +22,10 @@ describe('InputComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should render text in a h1 tag', async(() => {
+    const fixture = TestBed.createComponent(InputComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('h1').textContent).toContain('Input');
+  }));
 });

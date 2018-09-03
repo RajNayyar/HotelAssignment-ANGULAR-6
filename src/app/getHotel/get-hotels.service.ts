@@ -13,6 +13,6 @@ export class HoteltestService {
     error: any;
     getData() {
         console.log("Inside function");
-        return this.http.get('http://localhost:3000/sample');
+        return this.http.get('http://13.233.4.180:3000/sample');
     }
 }
