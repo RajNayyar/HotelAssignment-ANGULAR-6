@@ -26,7 +26,7 @@ export class FilterSectionComponent implements OnInit {
   checkAllInputs() {
     if (this.fromDate && !this.toDate) {
        this.searchButtonToggle = true;
-       this.errorMessage = "With 'FROM:','TO:' field is mandatory";
+       this.errorMessage = "TO:' field is mandatory with 'FROM:' field";
      }
      else if((this.fromDate>this.toDate)) {
       this.searchButtonToggle = true;
@@ -80,6 +80,11 @@ export class FilterSectionComponent implements OnInit {
           index++;
         }
     }
+    searchResult.sort(function(a, b){
+      if(a.HotelName < b.HotelName) return -1;
+      if(a.HotelName > b.HotelName) return 1;
+      return 0;
+    })
     this.hotelSearchEvent.emit(searchResult);
   }
 

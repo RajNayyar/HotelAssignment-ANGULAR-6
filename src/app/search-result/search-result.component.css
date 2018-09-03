@@ -40,14 +40,15 @@
 }
 .address{
     margin-bottom: 20px;
+    font-weight: bold;
+    color: gray;
 }
 .address-button{
     width: 250px;
     text-align: center;
 }
 .address-button p{
-    font-weight: bold;
-    color: gray;
+ 
 }
 .red {
     background-color: #a91b0d; 
@@ -66,6 +67,12 @@
     color: #ffffff;
     border: none;
     border-radius: 50px;
-
+}
+.avail{
+    margin-top: 15px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid;
 }
 

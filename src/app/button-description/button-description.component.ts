@@ -10,6 +10,7 @@ export class ButtonDescriptionComponent implements OnInit {
   primary: boolean = false;
   partial: boolean = false;
   notAvailable: boolean = false;
+  buttonclick: number;
   constructor() { }
 
   ngOnInit() {
@@ -34,5 +35,14 @@ export class ButtonDescriptionComponent implements OnInit {
     this.notAvailable = true;
    //this.btype = "notavailaible";
   }
-
+  primaryclick() {
+      this.buttonclick = 1;
+      
+  }
+  partialclick() {
+      this.buttonclick = 2;
+  }
+  notavailableclick() {
+      this.buttonclick = 3;
+  }
 }

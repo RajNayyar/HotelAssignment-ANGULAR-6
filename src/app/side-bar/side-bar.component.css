@@ -23,13 +23,10 @@
  
 }
 .side-bar button:hover{
- background-color: #984b43;
+ background-color: #386895;
    color: white;
 }
-.side-bar button:active{
- background-color: #1261a0;
-   color: black;
-}
+
 .button, .input, .panel {
   height: 50px;
   margin: 0 auto;

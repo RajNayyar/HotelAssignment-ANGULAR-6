@@ -23,16 +23,21 @@
  <!-- <app-buttontype [bdescription]="btype">-->
 <div class="buttons-demo-class">
  <div class="primary-button" *ngIf=primary> 
-         <button type="button" class="btn btn-success">Success</button>
-         <p>&lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;</p>
+
+
+
+
+         <input  type="button" class = "book-button green" value = "Book" (click)="primaryclick()">
+         <p *ngIf="buttonclick==1">&lt;input  type="button" class = "book-button green" value = "Book" (click)="primaryclick()"&gt;</p>
 </div>
 <div class="primary-button button-partial-demo" *ngIf=partial>
-         <button class="btn btn-warning">Partially Available</button>
-         <p>&lt;button Partially Available&lt;/button&gt;</p>
+          <input type="button" class = "book-button yellow" value = "Partially Available" (click)="partialclick()"> 
+         <p *ngIf="buttonclick==2"> &lt;input type="button" class = "book-button yellow" value = "Partially Available" (click)="partialclick()"&gt;</p>
+        
 </div>
 <div class="primary-button" *ngIf=notAvailable>
-     <button type="button" class="btn btn-danger">Not Available</button>
-     <p>&lt;button type="button" class="btn btn-danger"&gt;Not Available&lt;/button&gt;</p>
+     <input type="button" class = "book-button red" value = "Not Available" (click)="notavailableclick()">  
+     <p *ngIf="buttonclick==3">&lt;input type="button" class = "book-button red" value = "Not Available" (click)="notavailableclick()"&gt;</p>
   </div>
 </div>
 </div>

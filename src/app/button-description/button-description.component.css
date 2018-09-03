@@ -21,7 +21,24 @@
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 50px;
 }
-
+.book-button{
+    width: 250px;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+}
+.red {
+    background-color: #a91b0d; 
+}
+.yellow {
+    background-color: #EB9605;
+}
+.green {
+    background-color: green;
+}
 .button-types{
   display: flex;
 }
@@ -43,21 +60,20 @@ a {
 }
 .buttons-class div{
 	width: 200px;
-	background-color: black;
 	text-align: center;
 }
 .buttons-class button {
 
     width: 100%;
     border: 0px;
-    background-color: #072f5f;
+    background-color: #25274d;
  	 color: white;
   	font-size: 1.7em;
  	font-weight: lighter;
 }
 .buttons-class button:hover {
-	 background-color: #1261a0;
-     color: white;
+	 background-color: wheat;
+     color: black;
 }
 .button-partial-demo button {
 	border: 0px solid;
@@ -73,7 +89,7 @@ button:hover {
      background-color: #7CA7D8;;
 }
 .heading{
-	background-color: #072f5f;
+	background-color: #25274d;
  	color: white;
 	text-align: center;
 	border-radius: 50px;
