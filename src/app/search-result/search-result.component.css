@@ -1,0 +1,71 @@
+.card-bg{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 650px;
+}
+.card-collection{
+    max-height: 600px;
+    min-height: 0px;
+    box-shadow: 0 4px 8px 0 gray;
+    max-width:64rem;
+    margin: 20px auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+    overflow-y: scroll;
+    
+  
+}
+.search-card{
+    padding: 1rem;
+    max-width: 900px;
+    min-width: 0px;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 gray;
+    transition: 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotel-image{
+    width: 15rem;
+    height: 10rem;
+}
+.rating{
+    width:250px;
+}
+.checked {
+    color: orange;
+}
+.address{
+    margin-bottom: 20px;
+}
+.address-button{
+    width: 250px;
+    text-align: center;
+}
+.address-button p{
+    font-weight: bold;
+    color: gray;
+}
+.red {
+    background-color: #a91b0d; 
+}
+.yellow {
+    background-color: #EB9605;
+}
+.green {
+    background-color: green;
+}
+.book-button{
+    width: 250px;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+
+}
+

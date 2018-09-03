@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\e2e",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\filter-section",
+    "\\src\\app\\getHotel",
+    "\\src\\app\\header",
+    "\\src\\app\\search-result"
+  ],
+  "SelectedNode": "\\src\\app\\app.component.ts",
+  "PreviewInSolutionExplorer": false
+}
