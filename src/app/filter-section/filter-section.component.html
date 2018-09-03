@@ -2,7 +2,7 @@
 
 <section class = "filter">
   <input type="text" [(ngModel)] ="searchBox" (change)="checkAllInputs()" class="search-box" placeholder="Enter Hotel here.">
-  <div>
+  <div>  
     <label>FROM:</label>
     <input  type="date" [(ngModel)] ="fromDate" (change)="checkFromDate()" class="from-date">
   </div>  
@@ -13,5 +13,5 @@
   <input type="button"  value = "SEARCH" class="search-button" (click)="search()" [disabled] = "searchButtonToggle">
 </section>
 <section class = "error-message">
-    <p>{{errorMessage}}</p>
-  </section>
+  <p>{{errorMessage}}</p>
+</section>

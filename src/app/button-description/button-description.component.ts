@@ -20,7 +20,7 @@ export class ButtonDescriptionComponent implements OnInit {
     this.partial = false;
     this.notAvailable = false;
     //this.btype = "primary";
-   
+
   }
   getPartial() {
     this.primary = false;
@@ -33,16 +33,16 @@ export class ButtonDescriptionComponent implements OnInit {
     this.primary = false;
     this.partial = false;
     this.notAvailable = true;
-   //this.btype = "notavailaible";
+    //this.btype = "notavailaible";
   }
   primaryclick() {
-      this.buttonclick = 1;
-      
+    this.buttonclick = 1;
+
   }
   partialclick() {
-      this.buttonclick = 2;
+    this.buttonclick = 2;
   }
   notavailableclick() {
-      this.buttonclick = 3;
+    this.buttonclick = 3;
   }
 }

@@ -8,9 +8,9 @@ describe('ButtonDescriptionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ButtonDescriptionComponent ]
+      declarations: [ButtonDescriptionComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
