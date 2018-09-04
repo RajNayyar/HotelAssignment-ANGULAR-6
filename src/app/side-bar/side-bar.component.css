@@ -44,6 +44,10 @@
   .side-bar button {
     min-width: 100%;
   }
+  .side-content {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 450px) {
   .main-container {
@@ -53,5 +57,9 @@
   .side-bar {
     margin: 0 auto;
     border: none;
+  }
+  .side-content {
+    width: 90%;
+    margin: 0 auto;
   }
 }

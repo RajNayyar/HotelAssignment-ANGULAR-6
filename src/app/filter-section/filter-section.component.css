@@ -68,4 +68,28 @@ label {
 .search-button:disabled {
     opacity: 0.3;
 }
-
+@media only screen and (max-width: 900px) {
+    .filter {
+        max-width: 64rem;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom:0px;; 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    .search-button {
+        background-color: #984b43;
+        border: none;
+        color: white;
+        width: 10rem;
+        padding: 0.3rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+    }
+   
+  }

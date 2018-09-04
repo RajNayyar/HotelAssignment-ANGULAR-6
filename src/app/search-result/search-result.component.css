@@ -16,7 +16,7 @@
 .search-card {
     padding: 1rem;
     max-width: 900px;
-    min-width: 0px;
+    min-width: 300px;
     margin: 1.5rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -71,3 +71,43 @@
     border-bottom: 1px solid;
 }
 
+@media only screen and (max-width: 600px) {
+    .search-card {
+        padding: 1rem;
+        max-width: 900px;
+        min-width: 300px;
+        margin: 1.5rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 #808080;
+        transition: 0.3s;
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    .card-collection { 
+        max-height: 600px;
+        min-height: 0px;
+        box-shadow: 0 4px 8px 0 gray;
+        max-width:64rem;
+        margin: 5px auto;
+        font-family: sans-serif;
+        font-weight: lighter;
+        overflow-y: scroll;
+    }
+    .hotel-image {
+        width: 11rem;
+        height: 7rem;
+    }
+    .rating {
+        text-align: center;
+    } 
+  }
+
+  @media only screen and (max-width: 900px) {
+    .search-card {
+        justify-content: center;
+    }
+   
+  }
