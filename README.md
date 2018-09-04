@@ -49,11 +49,15 @@ latest versions
 ----------------------Then we have to setup mongoDB--------------------------
 
 Step 1: Goto www.mongodb.org and download mongodb setup .exe.
+
 Step 2: While installing mongodb, go for complete setup type.
+
 Step 3: Goto local disk C: and create a folder name "data". Inside this data folder make a folder named "db".
+
 Step 4: After complete installation, navigate to 
 	"c:program files/mongodb/server/4.0/bin"
 	and open cmd(command prompt) here.
+  
 Step 5: In cmd, execute the following command:
 	"mongod"
 
@@ -71,13 +75,16 @@ In cmd, execute the following command:
 
 --------------------Then we have to setup Angular CLI-------------------------
 
-step 1: Navigate to project Directory: 
+step 1: Navigate to project Directory: hotelSearch
+
 step 2: Install Angular CLI by using Node Packet Manager "npm install -g @angular/cli"
+
 step 3:Run "npm install" to include nodemodules in project. 
 
 ----------------------To Start the Project---------------------------------
 
-step 1: Start server by using following command "ng serve"
+step 1: Go to the project directory and Start server by using following command "ng serve"
+
 step 2: Open the browser and enter the URL localhost:4200
 
 ----------------Then we have to setup Jasmine and karma-----------------------
@@ -87,8 +94,11 @@ step 2: Open the browser and enter the URL localhost:4200
 ----------------------To See the TestResult Output--------------------------------- 
 
 step 1: Navigate to project Directory
+
 step 2: Run "ng test" 
+
 step 3: Karma server window will appear where you will find the number of testcases for components with result
+
 step 4: In cmd also you will get the result of testcases
 
 
