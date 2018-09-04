@@ -19,7 +19,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. 
+
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
@@ -43,7 +45,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 -----------------------First we have to setup Node---------------------------
 
 Install node from https://nodejs.org/en/download/
+
 -npm init
+
 latest versions
 
 ----------------------Then we have to setup mongoDB--------------------------
@@ -64,14 +68,21 @@ Step 5: In cmd, execute the following command:
 ----------------------Then we have to setup express---------------------------
 
 Navigate to app.js folder and open cmd and execute the following commands:
+
 "npm install --save mongo"
+
 "npm install --save express"
+
 "npm install --save path" 
+
 ""npm install file-system --save"
 
 Open a terminal inside 'HotelAssignment_Database' folder.
+
 In cmd, execute the following command:
+
 "node app.js" 
+
 
 --------------------Then we have to setup Angular CLI-------------------------
 
@@ -81,15 +92,18 @@ step 2: Install Angular CLI by using Node Packet Manager "npm install -g @angula
 
 step 3:Run "npm install" to include nodemodules in project. 
 
+
 ----------------------To Start the Project---------------------------------
 
 step 1: Go to the project directory and Start server by using following command "ng serve"
 
 step 2: Open the browser and enter the URL localhost:4200
 
+
 ----------------Then we have to setup Jasmine and karma-----------------------
 
  You don't need to install any such libraries for Jasmine and Karma as it install's with Angular ClI 
+ 
 
 ----------------------To See the TestResult Output--------------------------------- 
 
